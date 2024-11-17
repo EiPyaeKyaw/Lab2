@@ -12,6 +12,7 @@ def get_user_input():
     for float_list in string_list:
         list.append(int(float_list.strip()))
     print(list)
+    print(type(list))
     return list
     
 def find_min_max(num_list):
